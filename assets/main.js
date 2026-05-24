@@ -90,4 +90,16 @@
   document.querySelectorAll('[data-year]').forEach((el) => {
     el.textContent = new Date().getFullYear();
   });
+
+  // Persist language choice (so direct visits to /es/ are remembered)
+  try {
+    var path = window.location.pathname;
+    var isEs = path.indexOf('/es/') !== -1;
+    localStorage.setItem('unban-lang', isEs ? 'es' : 'en');
+    document.querySelectorAll('.lang-switcher a').forEach(function(a){
+      a.addEventListener('click', function(){
+        localStorage.setItem('unban-lang', a.dataset.lang || (a.getAttribute('href').indexOf('/es/') !== -1 || a.getAttribute('href').indexOf('es/') === 0 ? 'es' : 'en'));
+      });
+    });
+  } catch (e) {}
 })();

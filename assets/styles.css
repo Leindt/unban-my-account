@@ -1130,3 +1130,152 @@ section { padding: var(--section-gap) 0; position: relative; }
   border-color: var(--color-action-violet);
   box-shadow: 0 0 0 4px rgba(89, 46, 255, 0.12);
 }
+
+/* ============================================================
+   Language switcher (EN / ES)
+   ============================================================ */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: 1px solid var(--color-cloud-mist);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  background: #fff;
+}
+.lang-switcher a {
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: var(--color-slate-text);
+  transition: background .18s, color .18s;
+}
+.lang-switcher a:hover { color: var(--color-action-violet); }
+.lang-switcher a.active { background: var(--color-rich-violet); color: #fff; }
+.lang-switcher .sep { color: var(--color-cloud-mist); font-weight: 400; padding: 0 2px; }
+@media (max-width: 600px) {
+  .lang-switcher { font-size: 11px; padding: 2px 6px; }
+  .lang-switcher a { padding: 3px 6px; }
+}
+
+/* ============================================================
+   Telegram CTA, crypto badge, restoration insurance
+   ============================================================ */
+.telegram-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: #0088cc;
+  color: #fff;
+  border-radius: var(--radius-buttons);
+  font-family: var(--font-plus-jakarta-sans);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  transition: transform .18s, box-shadow .18s, background .2s;
+  box-shadow: 0 10px 24px -10px rgba(0, 136, 204, 0.5);
+}
+.telegram-cta:hover {
+  background: #007bb8;
+  transform: translateY(-1px);
+  box-shadow: 0 16px 30px -10px rgba(0, 136, 204, 0.55);
+}
+.telegram-cta svg { width: 22px; height: 22px; }
+
+.btn-telegram {
+  background: #0088cc;
+  color: #fff;
+  box-shadow: 0 10px 24px -10px rgba(0, 136, 204, 0.5);
+}
+.btn-telegram:hover { background: #007bb8; transform: translateY(-1px); }
+
+.badge-crypto {
+  color: #b76a00;
+  border-color: #f59e0b;
+  background: #fef3c7;
+}
+.badge-insurance {
+  color: var(--color-rich-violet);
+  border-color: var(--color-electric-green);
+  background: rgba(162,234,19,0.15);
+}
+
+.insurance-card {
+  background: var(--color-rich-violet);
+  color: #fff;
+  border-radius: var(--radius-blob);
+  padding: 60px 48px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 32px;
+  align-items: center;
+}
+.insurance-card .clock {
+  width: 120px; height: 120px;
+  border-radius: 50%;
+  background: var(--color-electric-green);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-polysans);
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--color-rich-violet);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  text-align: center;
+}
+.insurance-card h3 { color: #fff; font-size: 30px; margin-bottom: 10px; }
+.insurance-card p { color: rgba(255,255,255,0.82); font-size: 16px; line-height: 1.6; }
+@media (max-width: 720px) {
+  .insurance-card { grid-template-columns: 1fr; padding: 36px 28px; text-align: center; }
+  .insurance-card .clock { margin: 0 auto; width: 96px; height: 96px; font-size: 26px; }
+}
+
+/* Required info checklist */
+.req-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.req-list li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid var(--color-cloud-mist);
+  border-radius: 18px;
+  padding: 18px 20px;
+}
+.req-list .icn {
+  flex: 0 0 36px;
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  background: rgba(89,46,255,0.1);
+  color: var(--color-action-violet);
+  font-family: var(--font-polysans);
+  font-weight: 700;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.req-list h4 {
+  font-family: var(--font-plus-jakarta-sans);
+  font-size: 15px;
+  color: var(--color-rich-violet);
+  margin: 0 0 4px;
+  font-weight: 700;
+}
+.req-list p {
+  font-size: 14px;
+  color: #6b6779;
+  line-height: 1.5;
+  margin: 0;
+}
+@media (max-width: 600px) { .req-list { grid-template-columns: 1fr; } }
+
