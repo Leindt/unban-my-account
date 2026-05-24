@@ -36,7 +36,7 @@
   --spacing-100: 100px;
 
   /* Layout */
-  --section-gap: 120px;
+  --section-gap: 80px;
   --card-padding: 40px;
   --max-width: 1240px;
 
@@ -94,7 +94,7 @@ p { margin: 0; }
 section { padding: var(--section-gap) 0; position: relative; }
 
 @media (max-width: 768px) {
-  :root { --section-gap: 80px; --card-padding: 28px; }
+  :root { --section-gap: 56px; --card-padding: 28px; }
   body { font-size: 17px; }
 }
 
