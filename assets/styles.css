@@ -117,7 +117,8 @@ section { padding: var(--section-gap) 0; position: relative; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
   gap: 32px;
 }
 
@@ -1309,4 +1310,257 @@ section { padding: var(--section-gap) 0; position: relative; }
   margin: 0;
 }
 @media (max-width: 600px) { .req-list { grid-template-columns: 1fr; } }
+
+/* ============================================================
+   MOBILE — comprehensive fixes
+   ============================================================ */
+
+/* ── 768px: tablet & smaller ── */
+@media (max-width: 768px) {
+  /* Hide nav CTA btn — floating button covers it */
+  .nav-actions .btn-sm { display: none; }
+
+  /* Badge: allow text to wrap */
+  .badge {
+    white-space: normal;
+    height: auto;
+    min-height: 30px;
+    padding: 8px 16px;
+    line-height: 1.4;
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* Hero section */
+  .hero { padding: 52px 0 64px; }
+
+  /* Hero CTA: stack full-width */
+  .hero-cta {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-top: 28px;
+  }
+  .hero-cta .btn { width: 100%; text-align: center; justify-content: center; }
+
+  /* Hero trust bar */
+  .hero-trust {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+  }
+  /* Hide the · separator */
+  .hero-trust span:nth-child(3) { display: none; }
+
+  /* Platform chips */
+  .platform-chip { font-size: 17px; }
+  .marquee-track { gap: 22px; }
+
+  /* Page hero */
+  .page-hero { padding: 48px 0 36px; }
+
+  /* Section breaks: disable forced <br> in headings on mobile */
+  .section-header h2 br,
+  .section-header h1 br { display: none; }
+
+  /* Card accent */
+  .card-accent { padding: 32px 24px; }
+
+  /* Process steps */
+  .process-step { padding: 24px 20px; }
+
+  /* Testimonials */
+  .testimonial { padding: 24px; }
+
+  /* CTA banner */
+  .cta-banner { padding: 52px 24px; border-radius: 40px; }
+  .cta-banner .hero-cta { flex-direction: column; align-items: stretch; }
+  .cta-banner .hero-cta .btn { width: 100%; justify-content: center; }
+
+  /* Stats */
+  .stat { padding: 24px 20px; }
+  .stat .num { font-size: clamp(36px, 8vw, 56px); }
+
+  /* Footer */
+  .footer { padding: 52px 0 32px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+
+  /* Breadcrumb */
+  .breadcrumb { font-size: 13px; }
+
+  /* Lede text */
+  .lede { font-size: 17px; }
+
+  /* h-2 headings */
+  .h-2 { font-size: clamp(24px, 6vw, 36px); }
+
+  /* h-display */
+  .h-display { font-size: clamp(38px, 9vw, 84px); line-height: 1.0; }
+}
+
+/* ── 480px: small phones ── */
+@media (max-width: 480px) {
+  /* Container */
+  .container { padding: 0 18px; }
+
+  /* Nav: reduce gap so items don't overflow */
+  .nav-inner { gap: 10px; padding-top: 14px; padding-bottom: 14px; }
+  .lang-switcher { gap: 4px; font-size: 13px; }
+  .brand { font-size: 17px; gap: 8px; }
+  .brand-mark { width: 28px; height: 28px; flex: 0 0 28px; }
+
+  /* Section gap */
+  section { padding: 40px 0; }
+
+  /* Hero */
+  .hero { padding: 44px 0 56px; }
+  .hero-trust { gap: 4px; }
+
+  /* Platform chips even smaller */
+  .platform-chip { font-size: 15px; }
+  .marquee-track { gap: 16px; }
+
+  /* Page hero */
+  .page-hero { padding: 40px 0 28px; }
+
+  /* Card accent smaller */
+  .card-accent { padding: 28px 20px; }
+
+  /* CTA banner */
+  .cta-banner { padding: 44px 18px; border-radius: 32px; }
+
+  /* Price card */
+  .price-card { padding: 28px 24px; }
+
+  /* Stats */
+  .stat { padding: 20px 16px; }
+
+  /* Footer grid already 1-col at 480px */
+  .footer { padding: 44px 0 28px; }
+
+  /* FAQ questions smaller font */
+  .faq-q { font-size: 17px; }
+
+  /* Form card */
+  .form-card { padding: 24px 20px; }
+
+  /* Contact page CTA full-width */
+  .hero-cta .btn { font-size: 15px; }
+}
+
+/* ── Scroll-to-form link ── */
+.scroll-to-form {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-action-violet, #592eff);
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+.scroll-to-form:hover { opacity: 1; }
+
+/* ── Floating CTA button ── */
+.float-cta {
+  position: fixed;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  right: 24px;
+  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 14px 22px;
+  background: var(--color-action-violet, #592eff);
+  color: #fff;
+  font-family: var(--font-polysans, 'Montserrat', sans-serif);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  border-radius: 100px;
+  text-decoration: none;
+  box-shadow: 0 8px 32px rgba(89,46,255,0.45), 0 2px 8px rgba(0,0,0,0.18);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s;
+  animation: float-in 0.4s cubic-bezier(0.34,1.56,0.64,1) both;
+  animation-delay: 0.3s;
+}
+.float-cta:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 14px 40px rgba(89,46,255,0.55), 0 2px 8px rgba(0,0,0,0.18);
+  background: #4a22ee;
+  color: #fff;
+}
+.float-cta:active { transform: scale(0.97); }
+.float-cta .float-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+/* Pulse ring */
+.float-cta::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 100px;
+  border: 2px solid rgba(89,46,255,0.4);
+  animation: pulse-ring 2.4s ease-out infinite;
+  pointer-events: none;
+}
+@keyframes float-in {
+  from { opacity: 0; transform: translateY(24px) scale(0.85); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes pulse-ring {
+  0%   { opacity: 0.7; transform: scale(1); }
+  70%  { opacity: 0;   transform: scale(1.22); }
+  100% { opacity: 0;   transform: scale(1.22); }
+}
+@media (max-width: 480px) {
+  .float-cta {
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    right: 14px;
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
+
+/* ============================================================
+   Performance Hints
+   ============================================================ */
+
+/* Promote continuously-animated elements to GPU composite layers */
+.blob,
+.spark,
+.marquee-track {
+  will-change: transform;
+}
+
+/* float-cta uses entry animation + hover transform */
+.float-cta {
+  will-change: transform;
+}
+
+/* Contain paint/layout for card components that never overflow */
+.card,
+.process-step {
+  contain: layout style;
+}
+
+/* Footer is always below the fold — skip rendering until near viewport */
+.footer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 520px;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .blob, .spark, .marquee-track, .float-cta,
+  .reveal, .float-cta::before {
+    animation: none !important;
+    transition: none !important;
+    will-change: auto;
+  }
+  .float-cta { opacity: 1; transform: none; }
+}
 

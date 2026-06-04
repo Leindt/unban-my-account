@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /assets/main.js
 
 Sitemap: https://unbanmyaccount.com/sitemap.xml

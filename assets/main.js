@@ -91,6 +91,16 @@
     el.textContent = new Date().getFullYear();
   });
 
+  // Floating CTA button — injected on every page
+  var floatCta = document.createElement('a');
+  floatCta.href = 'https://t.me/Hndrlndt';
+  floatCta.target = '_blank';
+  floatCta.rel = 'noopener';
+  floatCta.className = 'float-cta';
+  floatCta.setAttribute('aria-label', 'Get a quote on Telegram');
+  floatCta.innerHTML = '<span class="float-icon">✈</span> Get a quote';
+  document.body.appendChild(floatCta);
+
   // Persist language choice (so direct visits to /es/ are remembered)
   try {
     var path = window.location.pathname;

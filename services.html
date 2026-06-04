@@ -18,7 +18,7 @@
 <meta name="theme-color" content="#592eff" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" /><noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
 <link rel="stylesheet" href="assets/styles.css" />
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -38,6 +38,7 @@
       <li><a href="blog.html">Blog</a></li>
       <li><a href="faq.html">FAQ</a></li>
       <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul></nav>
     <div class="nav-actions">
       <div class="lang-switcher" aria-label="Language">
@@ -45,7 +46,7 @@
         <span class="sep">·</span>
         <a href="es/services.html" data-lang="es">ES</a>
       </div>
-      <a href="https://t.me/Hndrlndt" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Get a quote →</a>
+      <a href="contact.html" class="btn btn-primary btn-sm">Get a quote →</a>
       <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -388,7 +389,7 @@
   </div>
 </footer>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js" defer></script>
 </body>
 </html>
 
