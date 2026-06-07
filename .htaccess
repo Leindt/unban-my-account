@@ -53,6 +53,21 @@ Options -Indexes
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  # HSTS — force HTTPS for 1 year (submit to preload list after confirming HTTPS works)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # Prevent MIME sniffing attacks
+  Header always set X-XSS-Protection "1; mode=block"
+  # Cross-Origin policies
+  Header always set Cross-Origin-Opener-Policy "same-origin-allow-popups"
+</IfModule>
+
+# ----------------------------------------------------------
+# Force HTTPS redirect
+# ----------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
 
 # ----------------------------------------------------------

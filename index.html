@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!-- SEO -->
@@ -46,61 +48,130 @@
     {
       "@type": "Organization",
       "@id": "https://unbanmyaccount.com/#org",
-      "name": "Unban My Account",
+      "name": "UnbanMyAccount",
+      "alternateName": ["Unban My Account", "UnbanMyAccount.com"],
       "url": "https://unbanmyaccount.com/",
-      "logo": "https://unbanmyaccount.com/assets/logo.png",
-      "sameAs": ["https://t.me/Hndrlndt"]
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://unbanmyaccount.com/assets/logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://unbanmyaccount.com/assets/og.png",
+      "description": "Premium social media account recovery service. We recover disabled, banned and suspended Instagram, TikTok, Facebook, X (Twitter), YouTube and LinkedIn accounts through internal escalation channels. From $3,500. Crypto only. Full refund if we cannot recover.",
+      "foundingDate": "2021",
+      "numberOfEmployees": { "@type": "QuantitativeValue", "value": 5 },
+      "areaServed": "Worldwide",
+      "serviceArea": { "@type": "AdministrativeArea", "name": "Worldwide" },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "url": "https://t.me/Hndrlndt",
+        "availableLanguage": ["English","Spanish"]
+      },
+      "sameAs": [
+        "https://t.me/Hndrlndt",
+        "https://github.com/Leindt/unban-my-account"
+      ],
+      "knowsAbout": [
+        "Instagram account recovery",
+        "TikTok account recovery",
+        "Facebook account recovery",
+        "Twitter account unban",
+        "YouTube channel recovery",
+        "Social media ban appeal",
+        "Account reinstatement"
+      ]
     },
     {
       "@type": "WebSite",
       "@id": "https://unbanmyaccount.com/#site",
       "url": "https://unbanmyaccount.com/",
-      "name": "Unban My Account",
+      "name": "UnbanMyAccount",
+      "description": "Premium social media account recovery. Recover banned Instagram, TikTok, Facebook, X, YouTube accounts. From $3,500. Crypto only.",
       "publisher": { "@id": "https://unbanmyaccount.com/#org" },
-      "inLanguage": ["en","es"]
+      "inLanguage": ["en","es"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://unbanmyaccount.com/faq.html?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     },
     {
-      "@type": "Service",
-      "name": "Social Media Account Recovery",
+      "@type": "ProfessionalService",
+      "@id": "https://unbanmyaccount.com/#service",
+      "name": "Social Media Account Recovery Service",
       "provider": { "@id": "https://unbanmyaccount.com/#org" },
       "areaServed": "Worldwide",
-      "serviceType": "Account unban and recovery",
+      "serviceType": "Social media account unban and reinstatement",
+      "description": "We recover disabled, banned and suspended social media accounts across Instagram, TikTok, Facebook, X/Twitter, YouTube, LinkedIn, Discord, Twitch, WhatsApp Business and Telegram through internal platform escalation channels. 94% success rate. Full refund if we cannot recover.",
       "offers": {
         "@type": "Offer",
         "price": "3500",
         "priceCurrency": "USD",
-        "acceptedPaymentMethod": "Cryptocurrency"
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "3500",
+          "priceCurrency": "USD"
+        },
+        "acceptedPaymentMethod": ["Bitcoin","Ethereum","Tether"],
+        "availability": "https://schema.org/InStock"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Account Recovery Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Instagram Account Recovery"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TikTok Account Recovery"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Facebook Account Recovery"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "X / Twitter Account Recovery"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "YouTube Channel Recovery"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "LinkedIn Account Recovery"}}
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "428",
+        "bestRating": "5",
+        "worstRating": "1"
       }
-    },
-    {
-      "@type": "AggregateRating",
-      "itemReviewed": { "@id": "https://unbanmyaccount.com/#org" },
-      "ratingValue": "4.9",
-      "reviewCount": "428",
-      "bestRating": "5"
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How long does it take to unban an account?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Recovery usually takes 1–48 hours through internal appeal channels. Right now turnaround is 2–5 days because platforms are delayed across the board." }
+          "name": "How long does it take to recover a banned social media account?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Recovery usually takes 1–48 hours through internal appeal channels. Current turnaround is 2–5 days due to platform delays across all major social media networks." }
         },
         {
           "@type": "Question",
-          "name": "Do you offer a money-back guarantee?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. If we cannot recover your account, we issue a full refund. Crypto in, crypto back." }
+          "name": "Do you offer a money-back guarantee for account recovery?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. If we cannot recover your account, we issue a full refund in cryptocurrency. We also include a 24-hour Restoration Insurance: if your account gets disabled again within 24 hours of recovery, we re-appeal at no extra cost." }
         },
         {
           "@type": "Question",
-          "name": "Why does it start at $3,500?",
-          "acceptedAnswer": { "@type": "Answer", "text": "$3,500 is the floor for straightforward cases. The final price depends on account size and ban reason — quoted up front, no hidden fees." }
+          "name": "Why does account recovery start at $3,500?",
+          "acceptedAnswer": { "@type": "Answer", "text": "$3,500 is the floor for straightforward cases. The final price depends on account size (follower count) and ban reason — quoted up front with no hidden fees. Cheaper services typically run automated form spam that platforms block on sight." }
         },
         {
           "@type": "Question",
-          "name": "What payment methods do you accept?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Crypto only. BTC, ETH, USDT (TRC-20 / ERC-20) and other stablecoins. Wallet shared via Telegram." }
+          "name": "What payment methods do you accept for account recovery?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Crypto only: BTC, ETH, USDT (TRC-20 / ERC-20) and major stablecoins. No credit cards, PayPal or bank transfers. Wallet address shared via Telegram after eligibility is confirmed." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you recover a permanently banned Instagram account?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Permanently banned accounts are our specialty. We work through internal escalation channels — not the public appeal form — which is why we achieve a 94% success rate even on accounts with 'final appeal denied' status." }
+        },
+        {
+          "@type": "Question",
+          "name": "Which social media platforms do you recover accounts on?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Instagram, TikTok, Facebook (Meta), X / Twitter, YouTube, LinkedIn, Discord, Twitch, WhatsApp Business, Telegram, Pinterest, Snapchat and more. We work globally in English and Spanish." }
         }
       ]
     }

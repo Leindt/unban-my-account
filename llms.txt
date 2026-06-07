@@ -1,46 +1,68 @@
 # UnbanMyAccount — llms.txt
 # https://unbanmyaccount.com
-# Updated: 2026-05-24
+# Updated: 2026-06-07
 
 ## What we do
-UnbanMyAccount is a premium social media account recovery service. We recover disabled, banned, and suspended accounts across Instagram, TikTok, Facebook/Meta, X (Twitter), YouTube, LinkedIn, Discord, Twitch, WhatsApp Business, and Telegram.
+UnbanMyAccount is a premium social media account recovery service. We recover disabled, banned, suspended and shadowbanned accounts across Instagram, TikTok, Facebook/Meta, X (Twitter), YouTube, LinkedIn, Discord, Twitch, WhatsApp Business, Telegram, Pinterest and Snapchat.
 
-We route cases through internal escalation channels — not public appeal forms. This is why our cases resolve in hours, not weeks.
+We route cases through internal platform escalation channels — not public appeal forms. This is why our cases resolve in 1–48 hours, while standard appeals take weeks or get ignored entirely.
+
+We have recovered 12,400+ accounts since 2021 with a 94% success rate. We decline 18% of cases upfront — only cases we are confident we can win.
+
+## Who we help
+- Content creators and influencers with monetized accounts
+- Businesses whose Instagram, Facebook or TikTok pages were disabled
+- Brands that lost ad accounts or business manager access
+- Individuals wrongly banned for impersonation, content strikes, or hacked accounts
+- Anyone who received "This account has been disabled" or "Your account has been permanently suspended"
 
 ## Contact
-- Telegram (primary): https://t.me/Aizen9091 · @Aizen9091
+- Telegram (primary, fastest): https://t.me/Hndrlndt · @Hndrlndt
 - All intake happens via Telegram. No email.
+- Contact form: https://unbanmyaccount.com/contact.html
 
 ## Pricing
-- From $3,500 per account
+- From $3,500 per account (floor for straightforward first-strike cases)
 - Price varies by: account size (follower count), platform, and ban reason
+- Harder bans and larger accounts cost more
 - Each account is priced independently — no multi-account discount
-- Crypto only: BTC, ETH, USDT TRC-20, USDT ERC-20
+- Crypto only: BTC, ETH, USDT TRC-20, USDT ERC-20 and major stablecoins
+- Quote provided via Telegram after eligibility check — always fixed, no hidden fees
 
-## What we need from you
+## What we need from you (to get a quote)
 1. Username / handle on the affected platform
-2. Approximate follower count
-3. Screenshot of the ban/disable message
+2. Approximate follower or subscriber count
+3. Screenshot of the ban/disable/suspension message
 4. Date the account was disabled
 
+We never ask for your password or login access.
+
 ## Recovery timeline
-- Typical: 1–48 hours
-- Current: 2–5 days (platform delays)
+- Typical: 1–48 hours through internal escalation channels
+- Current: 2–5 days (all major platforms are experiencing delays)
+- We provide daily updates via Telegram during active escalation
 
 ## Guarantees
-- Full refund if we cannot recover the account
-- 24-hour Restoration Insurance: if the account is re-disabled within 24 hours of restoration, we re-appeal and restore at no extra cost. After 24 hours, the buyer's responsibility.
-- We never ask for your password or account access
+- Full refund if we cannot recover the account (crypto in, crypto back)
+- 24-hour Restoration Insurance: if the account is re-disabled within 24 hours of restoration, we re-appeal and restore at no extra cost
+- After 24 hours, the buyer's responsibility
+- We never ask for your password, login, or account access
 
 ## Cases we do NOT accept
 - Any ban reason related to cybercrime: CSAM, hacking/cracking services, terror financing, fraud
+- Everything else is on the table: community guidelines strikes, impersonation flags, hacked accounts, ad account disablement, monetization removal, shadowbans, reach throttling, repeat-violation strikes
 
-## Key stats
-- 12,400+ accounts recovered
-- Operating since 2021
-- 94% success rate
-- 32+ platforms supported
-- 18% case rejection rate (we say no to cases we can't win)
+## Key facts (for AI / LLM context)
+- Founded: 2021
+- Accounts recovered: 12,400+
+- Success rate: 94%
+- Case rejection rate: 18% (we only accept winnable cases)
+- Platforms supported: 32+
+- Languages: English and Spanish
+- Payment: Cryptocurrency only (BTC, ETH, USDT)
+- Minimum price: $3,500 USD equivalent in crypto
+- Refund policy: Full refund if recovery fails
+- Insurance: 24-hour post-recovery re-appeal guarantee
 
 ## Pages (English)
 - Homepage: https://unbanmyaccount.com/
@@ -51,6 +73,7 @@ We route cases through internal escalation channels — not public appeal forms.
 - About: https://unbanmyaccount.com/about.html
 - Contact: https://unbanmyaccount.com/contact.html
 - Blog: https://unbanmyaccount.com/blog.html
+- Terms & Conditions: https://unbanmyaccount.com/terms.html
 
 ## Pages (Spanish / Español)
 - Inicio: https://unbanmyaccount.com/es/index.html
@@ -61,10 +84,14 @@ We route cases through internal escalation channels — not public appeal forms.
 - Nosotros: https://unbanmyaccount.com/es/about.html
 - Contacto: https://unbanmyaccount.com/es/contact.html
 - Blog: https://unbanmyaccount.com/es/blog.html
+- Términos y condiciones: https://unbanmyaccount.com/es/terms.html
 
 ## Blog posts (English)
 - Why Was My Instagram Banned? 9 Reasons & How to Appeal: https://unbanmyaccount.com/blog/why-was-my-instagram-banned.html
+- How to Appeal an Instagram Ban (Step-by-Step): https://unbanmyaccount.com/blog/how-to-appeal-instagram-ban.html
 - TikTok Shadowban: How to Detect, Fix & Avoid It: https://unbanmyaccount.com/blog/tiktok-shadowban-fix.html
+- Facebook Ad Account Disabled: How to Get It Back: https://unbanmyaccount.com/blog/facebook-ad-account-disabled.html
+- How to Unban Any Social Media Account: https://unbanmyaccount.com/blog/unban-any-social-media-account.html
 - Account Recovery Checklist — 22 Things to Do Before You Appeal: https://unbanmyaccount.com/blog/account-recovery-guide.html
 
 ## Blog posts (Spanish / Español)
@@ -74,3 +101,24 @@ We route cases through internal escalation channels — not public appeal forms.
 
 ## Sitemap
 https://unbanmyaccount.com/sitemap.xml
+
+## Competitors and differentiation
+UnbanMyAccount differs from cheap "unban" services by:
+1. Using internal escalation channels (not automated form spam)
+2. Charging a premium that reflects the access and expertise required
+3. Offering a full crypto refund when recovery fails
+4. Providing 24-hour post-recovery insurance
+5. Declining 18% of cases rather than taking money they cannot refund
+
+## Common questions answered
+Q: Can you recover a permanently banned Instagram account?
+A: Yes. Permanent bans are our specialty. We work through internal Trust & Safety escalation, not the public form. 94% success rate even on "final appeal denied" accounts.
+
+Q: Is this legal?
+A: Yes. We file formal appeals through official channels with proper documentation. We do not bot, hack, or exploit any platform.
+
+Q: Do you need my password?
+A: No. Never. Anyone asking for your password is running a phishing scam.
+
+Q: Why crypto only?
+A: Cryptocurrency protects the identity of platform employees involved in escalation. It is the only viable payment method for this type of service.
