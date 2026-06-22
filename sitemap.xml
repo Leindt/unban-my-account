@@ -90,20 +90,23 @@
   <url>
     <loc>https://unbanmyaccount.com/blog/how-to-appeal-instagram-ban.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://unbanmyaccount.com/blog/how-to-appeal-instagram-ban.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unbanmyaccount.com/es/blog/como-apelar-baneo-instagram.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://unbanmyaccount.com/blog/how-to-appeal-instagram-ban.html"/>
-    <lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    <lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
   </url>
   <url>
     <loc>https://unbanmyaccount.com/blog/facebook-ad-account-disabled.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://unbanmyaccount.com/blog/facebook-ad-account-disabled.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unbanmyaccount.com/es/blog/cuenta-publicitaria-facebook-deshabilitada.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://unbanmyaccount.com/blog/facebook-ad-account-disabled.html"/>
-    <lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    <lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
   </url>
   <url>
     <loc>https://unbanmyaccount.com/blog/unban-any-social-media-account.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://unbanmyaccount.com/blog/unban-any-social-media-account.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unbanmyaccount.com/es/blog/como-desbanear-cualquier-cuenta.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://unbanmyaccount.com/blog/unban-any-social-media-account.html"/>
-    <lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    <lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
   </url>
 
   <!-- ===== SPANISH PAGES ===== -->
@@ -190,6 +193,27 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://unbanmyaccount.com/es/blog/guia-recuperar-cuenta.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://unbanmyaccount.com/blog/account-recovery-guide.html"/>
     <lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://unbanmyaccount.com/es/blog/como-apelar-baneo-instagram.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://unbanmyaccount.com/blog/how-to-appeal-instagram-ban.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unbanmyaccount.com/es/blog/como-apelar-baneo-instagram.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unbanmyaccount.com/blog/how-to-appeal-instagram-ban.html"/>
+    <lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://unbanmyaccount.com/es/blog/cuenta-publicitaria-facebook-deshabilitada.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://unbanmyaccount.com/blog/facebook-ad-account-disabled.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unbanmyaccount.com/es/blog/cuenta-publicitaria-facebook-deshabilitada.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unbanmyaccount.com/blog/facebook-ad-account-disabled.html"/>
+    <lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://unbanmyaccount.com/es/blog/como-desbanear-cualquier-cuenta.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://unbanmyaccount.com/blog/unban-any-social-media-account.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://unbanmyaccount.com/es/blog/como-desbanear-cualquier-cuenta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://unbanmyaccount.com/blog/unban-any-social-media-account.html"/>
+    <lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
   </url>
 
 </urlset>
