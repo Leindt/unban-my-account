@@ -334,6 +334,35 @@ section { padding: var(--section-gap) 0; position: relative; }
 .card-violet h2, .card-violet h3 { color: #fff; }
 
 /* ============================================================
+   Data table (pricing / comparison)
+   ============================================================ */
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid var(--color-cloud-mist);
+  border-radius: var(--radius-cards);
+  overflow: hidden;
+  font-size: 15px;
+}
+.price-table caption { text-align: left; font-size: 13px; color: #6b6779; padding: 0 0 12px; }
+.price-table th, .price-table td { padding: 16px 20px; text-align: left; border-bottom: 1px solid var(--color-cloud-mist); }
+.price-table thead th {
+  background: var(--color-rich-violet);
+  color: #fff;
+  font-family: var(--font-polysans);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+}
+.price-table tbody tr:last-child td { border-bottom: none; }
+.price-table tbody tr:hover { background: var(--color-soft-gray-fill); }
+.price-table td strong { color: var(--color-rich-violet); }
+@media (max-width: 700px) {
+  .price-table { display: block; overflow-x: auto; white-space: nowrap; }
+}
+
+/* ============================================================
    Typography helpers
    ============================================================ */
 .eyebrow {

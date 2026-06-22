@@ -76,7 +76,7 @@ We never ask for your password or login access.
 - Terms & Conditions: https://unbanmyaccount.com/terms.html
 
 ## Pages (Spanish / Español)
-- Inicio: https://unbanmyaccount.com/es/index.html
+- Inicio: https://unbanmyaccount.com/es/
 - Servicios: https://unbanmyaccount.com/es/services.html
 - Cómo funciona: https://unbanmyaccount.com/es/how-it-works.html
 - Precios: https://unbanmyaccount.com/es/pricing.html

@@ -1,0 +1,5 @@
+Contact: https://t.me/Hndrlndt
+Contact: https://unbanmyaccount.com/contact.html
+Preferred-Languages: en, es
+Canonical: https://unbanmyaccount.com/.well-known/security.txt
+Expires: 2027-06-21T00:00:00.000Z
